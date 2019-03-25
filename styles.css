@@ -9,7 +9,7 @@ body {
 }
 
 .content {
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
   font-size: 16px;
 }
@@ -36,8 +36,13 @@ body {
 }
 
 .footer {
-  padding: 20px; /* Some padding */
+  padding: 10px; /* Some padding */
   font-size: 12px;
   text-align: center; /* Center text*/
   background: #ddd; /* Grey background */
+}
+
+.footer-text{
+ width: 30%;
+margin: auto;
 }
