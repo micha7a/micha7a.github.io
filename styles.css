@@ -12,6 +12,7 @@ body {
   max-width: 1200px;
   margin: auto;
   font-size: 16px;
+  min-height: 100%
 }
 
 .header{
@@ -35,14 +36,17 @@ body {
   text-decoration: none; /* Remove underline */
 }
 
-.footer {
-  padding: 10px; /* Some padding */
-  font-size: 12px;
-  text-align: center; /* Center text*/
-  background: #ddd; /* Grey background */
+.footer-text{
+ width: 800px;
+ margin: 10px;
+ text-align: center;
+ color: white;
 }
 
-.footer-text{
- width: 30%;
-margin: auto;
+.navbar-static-bottom {
+  @extend .navbar-fixed-bottom;
+  position: relative;
+  border-width: 1px 1px 0;
+  padding-bottom: 20px;
+  margin-bottom: -70px;
 }
