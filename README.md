@@ -6,4 +6,4 @@
 - Make images pop up at the same page
 - Add some text about this website
 - Add links to EPFL website and...?
-- Change colours to something nicer 
+- Add the dog
