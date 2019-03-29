@@ -2,7 +2,7 @@
 
 :root {
     --main-green:#669900;
-    --main-dark:#333333;
+    --main-dark:#4d4d4d;
     --second-gray:#8c8c8c;
     
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .header{
-  padding: 20px;
+  padding: 40px;
 }
 
 .disabled {
@@ -40,6 +40,11 @@ body {
 
 .main-navbar {
   font-weight:bold;
+}
+
+.text-column {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .navbar a {
