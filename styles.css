@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+:root {
+    --main-green:#669900;
+    --main-dark:#4d4d4d;
+    --second-gray:#8c8c8c;
+    
+}
+
+body {
+    background-color: white;
+	font-family: 'Oxygen', sans-serif;
+	line-height: 1.4;
+	text-align: justify;
+    color: var(--main-dark)
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  font-size: 16px;
+  min-height: 100%;
+}
+
+.header{
+  padding: 40px;
+}
+
+.disabled {
+  font-weight: lighter;
+}
+
+.navbar {
+  width: 100%
+  overflow: hide; /* Hide overflow */
+  background-color: var(--main-green);
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-navbar {
+  font-weight:bold;
+}
+
+.text-column {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 14px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-text{
+ width: 800px;
+ margin: 10px;
+ text-align: center;
+ color: white;
+}
+
+.navbar-static-bottom {
+  @extend .navbar-fixed-bottom;
+  position: relative;
+  border-width: 1px 1px 0;
+  padding-bottom: 20px;
+  margin-bottom: -70px;
+}
