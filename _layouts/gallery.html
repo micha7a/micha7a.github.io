@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div class="containter">
+    {% for image in page.images %}
+     <div class="picture">
+        <img src="{{ image.image_path}}" alt="{{image.title}}" >
+     </div>
+    {% endfor %}
+</div>

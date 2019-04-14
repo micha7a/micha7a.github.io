@@ -56,6 +56,10 @@ body {
   text-decoration: none; /* Remove underline */
 }
 
+.navbar-static-bottom {
+  margin-top: 20px;
+}
+
 .footer-text{
  width: 800px;
  margin: 10px;
@@ -81,9 +85,13 @@ body {
 
 .picture{
     height: 300px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 .picture img{ 
     height: inherit;
-    padding: 10px;
+    padding: 5px;
 }
