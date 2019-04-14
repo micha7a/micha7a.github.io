@@ -70,3 +70,20 @@ body {
   padding-bottom: 20px;
   margin-bottom: -70px;
 }
+
+.containter{
+     display: flex;
+     flex-direction: row; /*| row-reverse | column | column-reverse;*/
+     flex-wrap: wrap;
+     justify-content: center;
+     align-content: flex-start;
+}
+
+.picture{
+    height: 300px;
+}
+
+.picture img{ 
+    height: inherit;
+    padding: 10px;
+}
