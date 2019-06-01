@@ -1,3 +1,4 @@
 .bundle/
 _site/
+_config.yml
 */.directory

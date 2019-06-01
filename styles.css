@@ -76,6 +76,7 @@ body {
 }
 
 .containter{
+     width: inherit;
      display: flex;
      flex-direction: row; /*| row-reverse | column | column-reverse;*/
      flex-wrap: wrap;
@@ -83,11 +84,25 @@ body {
      align-content: flex-start;
 }
 
-.picture{
-    height: 300px;
-    margin: 5px;
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .picture{
+        width: inherit; 
+        margin: 5px;
+    }
+    
+    .picture img{ 
+    width: 100%;
+    }
 }
 
-.picture img{ 
+@media only screen and (min-width: 401px) {
+    .picture{
+        height: 400px;
+        margin: 5px;
+    }
+    
+    .picture img{ 
     height: inherit;
+    }
 }
