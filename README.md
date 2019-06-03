@@ -4,6 +4,5 @@
 - Add two languages 
 - Make images pop up at the same page
 - Add the dog
-- Add The Mushroom Guy
-- Make images the same width (different height) for mobile displays
+- Load first in the low resolution
 - RSS subscription?
