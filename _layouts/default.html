@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <!-- Magnific Popup core JS file -->
+    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script>
+    $(document).ready(function() {
+    $('.content img').each(function() {
+      var currentImage = $(this);
+      currentImage.wrap("<a class='image-link' href='" + currentImage.attr("src").replace("images/", "original/").replace(".jpg", ".png") + "'</a>");
+    });
+    $('.image-link').magnificPopup({type:'image', closeBtnInside:false, gallery:{
+    enabled:true
+  }});  
+    });
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="images/pies-naklejka.png">

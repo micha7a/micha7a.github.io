@@ -5,7 +5,9 @@ layout: default
 <div class="containter">
     {% for image in page.images %}
      <div class="picture">
-        <img src="{{ image.image_path}}" alt="{{image.title}}" >
+<!--         <a href="original/{{image.image_name}}.png"> -->
+        <img src="images/{{image.image_name}}.jpg" alt="{{image.title}}" >
+<!--         </a> -->
      </div>
     {% endfor %}
 </div>

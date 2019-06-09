@@ -92,7 +92,7 @@ body {
     }
     
     .picture img{ 
-    width: 100%;
+        width: 100%;
     }
 }
 
@@ -100,6 +100,10 @@ body {
     .picture{
         height: 400px;
         margin: 5px;
+    }
+    
+    .image-link{
+        height: inherit;
     }
     
     .picture img{ 
