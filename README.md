@@ -1,8 +1,7 @@
 # Michalina Pacholska's [homepage](https://micha7a.github.io/)
 
 ## TODO list:
-- Add two languages 
-- Make images pop up at the same page
+- Add two languages?
 - Add the dog
-- Load first in the low resolution
+- Load first in the low resolution? (made just smaller images)
 - RSS subscription?
