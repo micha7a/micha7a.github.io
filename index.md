@@ -3,7 +3,7 @@ layout: home
 ---
 
 ## February 2020
-I got a brush pen for birthday! And I don't know how to draw it now :D 
+I got a brush pen for birthday! And I don't know how to draw with it now :D 
 
 ## Inktober 2019
 I made only a few [drawings](inktober.html) from 
