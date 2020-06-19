@@ -1,6 +1,11 @@
 ---
 layout: home
+title: 
 ---
+
+## June 2020
+It's been a while... If you want to see what I've been up to, check out [Jakub's 
+blog](https://sygnowski.ml)! 
 
 ## February 2020
 I got a brush pen for birthday! And I don't know how to draw with it now :D 
@@ -23,4 +28,4 @@ There is a small chance for blog posts, comics or other stuff,
 but those will be rare.
 
 Ideally I would also like to merge this page and my EPFL page (see link on the 
-left),but that won't happen any time soon...
+left), but that won't happen any time soon...
