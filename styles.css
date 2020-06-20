@@ -84,6 +84,10 @@ body {
      align-content: flex-start;
 }
 
+#cookie {
+    vertical-align: text-bottom;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
     .picture{
