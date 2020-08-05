@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Homepage
+preview_image: original/pies-naklejka.png
 ---
 
 ## June 2020
