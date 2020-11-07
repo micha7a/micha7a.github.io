@@ -4,6 +4,14 @@ title: Homepage
 preview_image: original/pies-naklejka.png
 ---
 
+## November 2020
+It's after Halloween, and EPFL is closed, but I finished a poster advertising 
+[Creative Wednesdays](go.epfl.ch/creative-wednesdays) anyway. I guess I'm not 
+going to hand it... I added it, together with the previous poster, to the 
+[gallery](digital.html).
+
+<img src="images/pumpkin.jpg" alt="CW Poster" width="200px">
+
 ## June 2020
 It's been a while... If you want to see what I've been up to, check out [Jakub's 
 blog](https://sygnowski.ml)! 
