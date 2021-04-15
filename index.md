@@ -6,7 +6,7 @@ preview_image: original/pies-naklejka.png
 
 ## November 2020
 It's after Halloween, and EPFL is closed, but I finished a poster advertising 
-[Creative Wednesdays](go.epfl.ch/creative-wednesdays)! I guess I'm not 
+[Creative Wednesdays](https://go.epfl.ch/creative-wednesdays)! I guess I'm not 
 going to hang it... I added it, together with the previous poster, to the 
 [gallery](digital.html).
 
