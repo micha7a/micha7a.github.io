@@ -1,0 +1,28 @@
+---
+title: Future Comic
+layout: comic
+url: comic.html
+preview_image: original/pies-naklejka.png
+---
+
+{% assign prev_index = page.number | minus: 1 %}
+{% assign next_index = page.number | plus: 1 %}
+
+{% if page.number == site.comic_pages.first.number %}
+{% assign prev_index = site.comic_pages.first.number %}
+{% endif %}
+
+{% if page.number == site.comic_pages.last.number %}
+{% assign next_index = site.comic_pages.last.number %}
+{% endif %}
+
+
+
+<div class="singlepage">
+  {% include comic_navbar.html %}
+  <img src="/comic_files/{{page.number}}.webp">
+  {% include comic_navbar.html %}
+  <div class="caption">
+    <h3> Page {{ page.number }}: {{ page.caption }} </h3>
+  </div>
+</div>

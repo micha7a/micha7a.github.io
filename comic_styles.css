@@ -1,0 +1,34 @@
+
+
+.archive .page {
+  width: 230px;
+  margin: 0px;
+  text-align: center;
+}
+
+.archive .page img {
+  width: 100%;
+}
+
+.singlepage {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 715px;
+  padding: 5px;
+}
+
+.singlepage img{
+  width: 100%;
+}
+
+.singlepage .navbar{
+  width: 100%
+}
+
+.singlepage h3{
+   margin: 5px;
+}
+
+.singlepage .caption{
+   margin-bottom: 20px;
+}

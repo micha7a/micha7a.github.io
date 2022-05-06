@@ -1,0 +1,21 @@
+---
+title: Future Comic
+layout: comic
+url: comic.html
+preview_image: original/pies-naklejka.png
+---
+<div class="containter archive">
+{% for page in site.comic_pages %}
+{% if page.number < site.comic_pages.last.number %}
+{% if page.number > site.comic_pages.first.number %}
+  <div class="page">
+    <a href="{{ page.url }}" title="{{page.caption}}">
+<!--       <p>{{ page.number }}: {{ page.caption }}</p> -->
+      <img src="/comic_files/{{page.number}}.webp">
+    </a>
+  </div>
+{% endif %}
+{% endif %}
+{% endfor %}
+</div>
+

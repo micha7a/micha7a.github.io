@@ -31,15 +31,16 @@ body {
 }
 
 .navbar {
-  width: 100%
   overflow: hide; /* Hide overflow */
-  background-color: var(--main-green);
   display: flex;
   justify-content: space-between;
+  border-radius: 5px;
+  padding: 0px;
+  margin: 0px;
 }
 
-.main-navbar {
-  font-weight:bold;
+.main-navbar{
+    background-color: var(--main-green);
 }
 
 .text-column {
@@ -47,17 +48,19 @@ body {
   padding-right: 30px;
 }
 
-.navbar a {
+.main-navbar a {
   float: left; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
   color: white; /* White text color */
   text-align: center; /* Center the text */
   padding: 14px 14px; /* Add some padding */
   text-decoration: none; /* Remove underline */
+  font-weight:bold;
 }
 
 .navbar-static-bottom {
   margin-top: 20px;
+  background-color: var(--main-green);
 }
 
 .footer-text{
@@ -70,9 +73,10 @@ body {
 .navbar-static-bottom {
   @extend .navbar-fixed-bottom;
   position: relative;
-  border-width: 1px 1px 0;
+  border-radius: 0px;
   padding-bottom: 20px;
   margin-bottom: -70px;
+  margin-top: 0px;
 }
 
 .containter{
@@ -82,6 +86,13 @@ body {
      flex-wrap: wrap;
      justify-content: center;
      align-content: flex-start;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #cookie {
