@@ -4,15 +4,23 @@ title: Homepage
 preview_image: original/pies-naklejka.png
 ---
 
+## 9th of May 2022 -- Webcomic Day!
+It's been a while, hasn't it? To celebrate the Webcomic Day, I've posted the first part of my tiny webcomic [The Backup](comic_pages/0.html). If everything goes well, it will update every week.
+
+Also, checkout [other comics I read](favourites.html)!
+
+PS
+Jakub's blog changed address, it's now at [sygi.ml](https://sygi.ml)
+
 ## November 2020
-It's after Halloween, and EPFL is closed, but I finished a poster advertising 
+It's after Halloween and EPFL is closed, but I finished a poster advertising
 [Creative Wednesdays](https://go.epfl.ch/creative-wednesdays)! I guess I'm not 
 going to hang it... I added it, together with the previous poster, to the 
 [gallery](digital.html).
 
 ## June 2020
 It's been a while... If you want to see what I've been up to, check out [Jakub's 
-blog](https://sygnowski.ml)! 
+blog](https://sygi.ml)!
 
 ## February 2020
 I got a brush pen for birthday! And I don't know how to draw with it now :D 
