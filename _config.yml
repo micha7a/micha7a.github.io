@@ -1,0 +1,7 @@
+collections:
+  comic_pages:
+    output: true
+    sort_by: number
+
+plugins:
+  - jekyll-feed

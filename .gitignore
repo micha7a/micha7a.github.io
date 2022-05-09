@@ -1,6 +1,5 @@
 .bundle/
 _site/
-_config.yml
 */.directory
 .jekyll-cache/
 _future_comic_pages/
