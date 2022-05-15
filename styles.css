@@ -31,7 +31,7 @@ body {
 }
 
 .navbar {
-  overflow: hide; /* Hide overflow */
+  overflow: auto; /* Hide overflow */
   display: flex;
   justify-content: space-between;
   border-radius: 5px;
@@ -41,6 +41,10 @@ body {
 
 .main-navbar{
     background-color: var(--main-green);
+}
+
+.naw-item{
+    padding: 10px;
 }
 
 .text-column {
@@ -53,7 +57,7 @@ body {
   display: block; /* Change the display to block, for responsive reasons (see below) */
   color: white; /* White text color */
   text-align: center; /* Center the text */
-  padding: 14px 14px; /* Add some padding */
+  padding: 15px 15px; /* Add some padding */
   text-decoration: none; /* Remove underline */
   font-weight:bold;
 }
@@ -93,6 +97,8 @@ body {
 .row {
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 #cookie {
@@ -100,7 +106,7 @@ body {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .picture{
         width: inherit; 
         margin: 5px;
@@ -109,9 +115,13 @@ body {
     .picture img{ 
         width: 100%;
     }
+
+    .main-navbar a {
+        padding: 10px 10px;
+    }
 }
 
-@media only screen and (min-width: 401px) {
+@media only screen and (min-width: 451px) {
     .picture{
         height: 300px;
         margin: 5px;
