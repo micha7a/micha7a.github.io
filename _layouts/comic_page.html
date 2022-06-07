@@ -20,10 +20,10 @@ preview_image: original/pies-naklejka.png
 
 <div class="singlepage">
   {% include comic_navbar.html %}
-  <img src="/comic_files/{{page.number}}.webp">
+  <img src="/comic_files/{{page.number | minus: 100 }}.webp">
   {% include comic_navbar.html %}
   <div class="caption">
-    <h3> Page {{ page.number }}: {{ page.caption }} </h3>
+    <h3> Page {{ page.number | minus: 100 }}: {{ page.caption }} </h3>
   </div>
   <hr>
   <div id="disqus_thread"></div>
