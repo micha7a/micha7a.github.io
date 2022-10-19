@@ -4,13 +4,18 @@ title: Homepage
 preview_image: original/pies-naklejka.png
 ---
 
+## October
+No inktober this season, I had too many distractions including holidays. I’ve played a bit with imitating styles of different artists and wanted to compare it with style transfer. I’m yet to figure out in which format I want to publish the results here. In the meantime, I have some new drawings.
+
+Aaand Jakub's website changed again, to [sygnowski.ml](https://sygnowski.ml)
+
 ## 9th of May 2022 -- Webcomic Day!
 It's been a while, hasn't it? To celebrate the Webcomic Day, I've posted the first part of my tiny webcomic [The Backup](comic_pages/0.html). If everything goes well, it will update every week.
 
 Also, checkout [other comics I read](favourites.html)!
 
 PS
-Jakub's blog changed address, it's now at [sygi.ml](https://sygi.ml)
+Jakub's blog changed address, it's now at [sygi.ml](https://sygnowski.ml)
 
 ## November 2020
 It's after Halloween and EPFL is closed, but I finished a poster advertising
@@ -20,7 +25,7 @@ going to hang it... I added it, together with the previous poster, to the
 
 ## June 2020
 It's been a while... If you want to see what I've been up to, check out [Jakub's 
-blog](https://sygi.ml)!
+blog](https://sygnowski.ml)!
 
 ## February 2020
 I got a brush pen for birthday! And I don't know how to draw with it now :D 
