@@ -2,6 +2,9 @@ collections:
   comic_pages:
     output: true
     sort_by: number
+  blogposts:
+    output: true
+    sort_by: date
 
 plugins:
   - jekyll-feed

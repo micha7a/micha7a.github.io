@@ -1,9 +1,10 @@
 ---
 title: Future Comic
-layout: comic
-url: comic.html
+layout: default
 preview_image: original/pies-naklejka.png
 ---
+
+{% include /comic_navbar.html %}
 <div class="containter archive">
 {% for page in site.comic_pages %}
 {% if page.number < site.comic_pages.last.number %}

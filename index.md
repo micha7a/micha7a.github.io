@@ -4,19 +4,13 @@ title: Homepage
 preview_image: original/pies-naklejka.png
 ---
 
-<!--## Style transfer (2022)
-
-### Digital Style of [Marcel Hampel](https://www.artstation.com/marcelhampel)
-
-### Watercolor Style of [Hanna Wainio](https://www.etsy.com/ca/shop/HannaWainio)-->
-
 
 ## October 2022
 No inktober this season, I had too many distractions including holidays. I’ve played a bit with imitating styles of different artists and wanted to compare it with style transfer. I’m yet to figure out in which format I want to publish the results here. In the meantime, I have some new drawings.
 
 Aaand Jakub's website changed again, to [sygnowski.ml](https://sygnowski.ml)
 
-## 9th of May 2022 -- Webcomic Day!
+## 9th of May 2022: Webcomic Day!
 It's been a while, hasn't it? To celebrate the Webcomic Day, I've posted the first part of my tiny webcomic [The Backup](comic_pages/0.html). If everything goes well, it will update every week.
 
 Also, checkout [other comics I read](favourites.html)!

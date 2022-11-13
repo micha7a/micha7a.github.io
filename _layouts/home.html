@@ -1,9 +1,10 @@
 ---
 title: Home
 layout: default
-url: home.html
 preview_image: original/pies-naklejka.png
 ---
+
+{% include /main_navbar.html %}
 
 <div class="row">
     <div class="col-sm-4 text-column">
@@ -17,6 +18,13 @@ preview_image: original/pies-naklejka.png
         my google scholar profile</a>. </p>
     </div>
     <div class="col-sm-8 text-column">
+       {% for blogpost in site.blogposts reversed %}
+            <h2> {{ blogpost.date | date: '%B %-d, %Y' }}: {{ blogpost.title }} </h2>
+            {{blogpost.excerpt }}
+            {% if blogpost.content.size > blogpost.excerpt.size %}
+                <a href="{{blogpost.url}}" > Read more here. </a>
+            {% endif %}
+        {% endfor %}
         {{content}}
     </div>
 </div>

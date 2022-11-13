@@ -1,60 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head> 
-    <!--Stuff for not caching - to be removed -->
-     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-
-
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X430NZQ9P7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-X430NZQ9P7');
+    </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <!-- Magnific Popup core CSS file -->
-    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
-    <!-- Magnific Popup core JS file -->
-    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script>
-    $(document).ready(function() {
-    $('.content img').each(function() {
-      var currentImage = $(this);
-      currentImage.wrap("<a class='image-link' href='" + currentImage.attr("src").replace("images/", "original/").replace(".jpg", ".png") + "'</a>");
-    });
-    $('.image-link').magnificPopup({type:'image', closeBtnInside:false, gallery:{
-    enabled:true
-  }});  
-    });
-    </script>
+    {% for css in page.custom-css-list %}
+        <link href="{{ css }}" rel="stylesheet">
+    {% endfor %}
+    {% for javascript in page.custom-javascript-list %}
+        <script src="{{ javascript }}"></script>
+    {% endfor %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/comic_styles.css">
     <title>Michalina Pacholska Homepage</title>
     <meta property="og:title" content="Michalina Pacholska {{ page.title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://micha7a.github.io{{page.url}}" />
     <meta property="og:image" content="http://micha7a.github.io/{{page.preview_image}}"/>
 </head>
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X430NZQ9P7"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-X430NZQ9P7');
-    </script>
 <body>  
     <div class="content">
-    <div class="header">
-        <h1>Michalina Pacholska <small> {{ page.title }} </small></h1>
-    </div>
-    <div class="navbar main-navbar">
-        <a class="nav-item nav-link" href="index.html">Home</a>
-        <a class="nav-item nav-link" href="digital.html">Digital Drawings</a>
-        <a class="nav-item nav-link" href="vector.html">Vector Graphics</a>
-        <a class="nav-item nav-link" href="sketches.html">Sketches</a>
-        <a class="nav-item nav-link" href="/comic_pages/{{site.comic_pages.last.number}}.html">Comic</a>
-    </div>
     {{content}}
     </div>
     <div class="navbar navbar-static-bottom"> 
