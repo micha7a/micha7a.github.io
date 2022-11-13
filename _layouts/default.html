@@ -12,17 +12,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    {% for css in page.custom-css-list %}
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="/styles.css">
+    {% for css in layout.custom-css-list %}
         <link href="{{ css }}" rel="stylesheet">
     {% endfor %}
-    {% for javascript in page.custom-javascript-list %}
+    {% for javascript in layout.custom-javascript-list %}
         <script src="{{ javascript }}"></script>
     {% endfor %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="/favicon.png">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="/comic_styles.css">
     <title>Michalina Pacholska Homepage</title>
     <meta property="og:title" content="Michalina Pacholska {{ page.title }}" />
     <meta property="og:type" content="website" />

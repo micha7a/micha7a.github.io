@@ -83,7 +83,7 @@ body {
   margin-top: 0px;
 }
 
-.containter{
+.container{
      width: inherit;
      display: flex;
      flex-direction: row; /*| row-reverse | column | column-reverse;*/
@@ -92,6 +92,7 @@ body {
      align-content: flex-start;
      margin-top: 20px;
      margin-bottom: 20px;
+     padding:0px;
 }
 
 .row {

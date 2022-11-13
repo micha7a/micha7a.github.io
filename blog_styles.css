@@ -1,0 +1,52 @@
+.blogpage {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  padding: 5px;
+}
+
+.blogpage.navbar{
+  width: 100%
+}
+
+.blogpage h3{
+   margin: 5px;
+}
+
+.caption {
+  text-align: center;
+  width: 100%;
+
+}
+
+.full-page-picture{
+  width: inherit;
+  margin: 5px;
+}
+
+.full-page-picture img{
+  width: 100%;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 450px) {
+  .small-picture{
+    width: inherit;
+    margin: 5px;
+  }
+  .small-picture img{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 451px) {
+  .small-picture{
+    height: 250px;
+    margin: 5px;
+  }
+
+  .small-picture img{
+    height: inherit;
+  }
+}

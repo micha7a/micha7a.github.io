@@ -1,10 +1,16 @@
 ---
 layout: default
+
+custom-javascript-list:
+    - "/magnific-popup/jquery.magnific-popup.min.js"
+    - "/magnific-popup/custom_settings.js"
+
+custom-css-list:
+    - "/magnific-popup/magnific-popup.css"
 ---
 
 {% include /main_navbar.html %}
-
-<div class="containter">
+<div class="container">
     {% for image in page.images %}
      <div class="picture">
         <img src="images/{{image.image_name}}.jpg" alt="{{image.title}}" >

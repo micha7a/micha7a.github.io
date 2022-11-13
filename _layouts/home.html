@@ -19,10 +19,16 @@ preview_image: original/pies-naklejka.png
     </div>
     <div class="col-sm-8 text-column">
        {% for blogpost in site.blogposts reversed %}
+            {% assign words = blogpost.content | number_of_words %}
             <h2> {{ blogpost.date | date: '%B %-d, %Y' }}: {{ blogpost.title }} </h2>
             {{blogpost.excerpt }}
             {% if blogpost.content.size > blogpost.excerpt.size %}
-                <a href="{{blogpost.url}}" > Read more here. </a>
+                <a href="{{blogpost.url}}" > Read more...
+                ({% if words < 360 %}
+                    less than 1 min
+                    {% else %}
+                    {{ words | divided_by:180 }} mins
+                {% endif %})  </a>
             {% endif %}
         {% endfor %}
         {{content}}
