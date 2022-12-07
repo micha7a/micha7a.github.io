@@ -1,7 +1,7 @@
 ---
 layout: blog_post
 title: Learning to imitate Sombulus
-date: 2022-11-20
+date: 2022-12-04
 preview_image: original/pies-naklejka.png
 ---
 
@@ -12,9 +12,9 @@ With all the recent uncertainty about which social media platforms will float an
 **Warning: this post contains minor [Sombulus](http://sombulus.com/) spoilers!**
 
 ## Disclaimers
-Let me start with some disclaimers. First, I've done all this work like, a year ago? But after I finished my comic, I picked up learning different styles (that I didn't have time for before). I figured documenting my learning process might be interesting blog-post series (even if only for myself and my mum), so I dag up my old Sombulus-inspired art to keep the series in chronological order.
+Let me start with some disclaimers. First, I've done all this work like, a year ago? But after I finished my comic, I picked up learning different styles (that I didn't have time for before). I figured documenting my learning process might be interesting blog-post series (even if only for myself and my mum), so I dug up my old Sombulus-inspired art to keep the series in chronological order.
 
-I have never added the drawings that resulted from this exercise to my gallery,because it felt too much like plagiarism to show them without context.
+I have never added the drawings that resulted from this exercise to my gallery, because it felt too much like plagiarism to show them without context.
 
 ## Copying Sombulus Style
 
@@ -29,7 +29,7 @@ Now, everyone who has ever read Sombulus knows that *Sombulus style* is a bit of
 </div>
 Despite that, I chose Delphina's style as the first one to learn, because a) Sombulus was (and still is) my favourite webcomic and b) at least some of Delphina's styles seemed similar to picture I have drawn before, like this shroom guy below:
 <div class="container">
-  <div class="picture"> <img src="http://127.0.0.1:4000/original/pangrzyb.png"/>   </div>
+  <div class="picture"> <img src="/original/pangrzyb.png"/>   </div>
 <div class="caption"> Figure 2: My old drawing of a Mushroom Guy. </div>
 </div>
 
