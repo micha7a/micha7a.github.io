@@ -5,7 +5,7 @@ date: 2022-12-04
 preview_image: original/pies-naklejka.png
 ---
 
-While drawing [my comic *The Backup*](comic_pages/100.html), I tried to learn and get inspiration from [comics I read](favourites.html).
+While drawing [my comic *The Backup*](comic_pages/100.html), I tried to learn and get inspiration from [comics I read](/favourites.html).
 Most of it was just observing and learning what I like about other comics, but I also tried to imitate my favourites.
 So far the only success I had was with [Sombulus](http://sombulus.com/) by Christina "Delphina" Major.
 With all the recent uncertainty about which social media platforms will float and which will sink, I decided to go old-school and write a blog-post.
