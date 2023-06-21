@@ -1,0 +1,25 @@
+#!/bin/python3
+import subprocess
+import os
+
+def git_new():
+    git = subprocess.Popen(
+        'git diff --name-only --staged'.split(),
+        stdout = subprocess.PIPE)
+    details = git.stdout.read()
+    details = details.decode('utf-8', 'replace').strip()
+    return details
+
+with open('.commit', 'r') as f:
+    images = f.read().splitlines()
+
+    for image in images:
+        if os.path.isfile(image):
+            print("Adding {} to git".format(image))
+            subprocess.call(['git', 'add', image])
+
+if git_new() != '':
+    subprocess.call(['git', 'commit', '--amend'])
+
+if os.path.isfile(".commit"):
+    os.remove(".commit")
